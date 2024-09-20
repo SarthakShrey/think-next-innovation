@@ -1,0 +1,27 @@
+.box {
+    border: 1px solid gray;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+}
+.box:hover {
+    border: none;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+.box>.icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+
+.box>p {
+    padding-top: 1rem;
+    color : var(--neutral);
+    font-size: 18px;
+}
+
+.box>h4 {
+    padding: 1rem 0 0.5rem 0;
+    font-size: 24px;
+}

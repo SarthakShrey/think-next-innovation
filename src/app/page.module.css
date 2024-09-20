@@ -1,0 +1,38 @@
+
+
+.main {
+
+  /* width:90vw; */
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  gap: 6rem;
+}
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+ 
+}
+
+@media only screen and  (max-width: 767px) {
+   
+.main{
+  padding: 0.25rem;
+}
+      
+    }
+
+
+
+
+
+    
+    

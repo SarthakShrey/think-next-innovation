@@ -1,0 +1,45 @@
+  .valueBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding-right: 1rem;
+   
+  
+  }
+
+  .valueHeading{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  
+  
+  .paragraph {
+    display: block;
+    font-size: 18px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  
+  .valueblock {
+    display: flex;
+    padding: 1.5rem 0;
+    height: fit-content;
+    border-bottom: 1px solid black;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .valueblock > .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    /* padding: 1rem 1rem; */
+    border-radius: 100px;
+    right: 0;
+    margin: 0;
+    height: 4rem;
+    width: 4rem;
+
+  }
