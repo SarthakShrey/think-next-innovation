@@ -29,7 +29,7 @@ function page() {
             </div>
             <div className="flex items-center">
               <IoCall className="contactIcon text-4xl text-primary bg-darkblue p-2 m-4 rounded-lg" />{" "}
-              <p className="text-2xl">+91 999 999 999</p>
+              <p className="text-2xl">+91 9099363939</p>
             </div>
             <div className="flex items-center">
               <IoLocationSharp className="contactIcon text-4xl text-primary bg-darkblue p-2 m-4 rounded-lg" />{" "}

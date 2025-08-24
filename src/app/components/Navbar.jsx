@@ -24,7 +24,7 @@ const Navbar = () => {
         <Link href={"/"} className="logo text-3xl z-50 flex justify-center items-center gap-2">
          <Image src={NextLogo} className="w-16" alt="logo" />
          
-          <span>Think Next Innvoation</span>{" "}
+          <span>Think Next Innovation</span>{" "}
         </Link>
 
         <button
